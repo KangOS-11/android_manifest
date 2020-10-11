@@ -8,11 +8,6 @@
         fetch="https://github.com/KangOS-R/"
         revision="refs/heads/eleven" />
 
-<remote name="device"
-        fetch="https://github.com/KangOS-Devices"
-        revision="11" />
-
-
   <project path="art" name="android_art" remote="kang" />
 
  <!-- Kanged build -->
@@ -44,6 +39,7 @@
 
  <!-- Kanged system -->
   <project path="system/core" name="platform_system_core" remote="kang" />
+  <project path="system/extras" name="android_system_extras" remote="kang" />
 
  <!-- Kanged vendor -->
   <project path="vendor/corvus" name="vendor_corvus" remote="kang" />
